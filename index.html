@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio Viktor Meeussen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+</head>
+ 
+<style>
+    body{
+        background-color:#EDEDED;
+    }
+    
+    header{
+        background-color:#fff;
+        width: 100%;
+        height:100px;
+    }
+    
+    * {
+        text-decoration: none;
+    }
+    
+    header .header-brand{
+        font-family: Catamaran;
+        font-size:28px;
+        color: #111;
+        font-weight:800;
+        text-transform: uppercase;
+        display: block;
+        margin: 0 auto;
+        text-align:center;
+        padding: 15px 0px 5px 0px;
+    }
+    
+    header nav ul{
+        display:block;
+        margin: 0 auto;
+    }
+    
+    header nav ul li{
+        display: inline-block;
+        float: left;
+        list-style: none;
+        padding: 0 16px;
+    }
+    
+    header nav ul li a{
+        font-family: Catamaran;
+        font-size:16px;
+        color: #111;
+    }
+    
+    header .header-examples{
+        display:none;
+    }
+    
+    /*index*/
+    
+    .index-banner{
+        margin:
+        width: 100%;
+        height: calc(100vh - 110px);
+        background-image:url('banner-foto.PNG');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        display:table;
+    }
+      
+    .index-banner h2{
+        font-family: Catamaran;
+        font-size:50px;
+        color: #fff;
+        text-align:center;
+        line-height:65px;
+        font-weight:800;
+        text-shadow: 2px 2px 8px #111;
+    }
+    
+    .index-banner h1{
+        font-family: Cormorant Garamond;
+        font-size:28px;
+        color: #fff;
+        text-align:center;
+        line-height:35px;
+        font-weight:100;
+        font-style:italic;
+        padding-top:120px;
+    }
+    
+    .index-boxlink{
+        margin: 20px 20px 0px;;
+        width: calc(100% -40px);
+        height:100px;
+        background-color: #CBCBCB;
+        border-radius:5px;
+        
+    } 
+    
+    .index-boxlink h3{
+        font-family: Catamaran;
+        font-size: 30px;
+        font-weight:500;
+        text-align:center;
+        line-height:100px;
+        text-transform:uppercase;
+    }
+    
+    a:link{
+        color:#111;
+    }
+    a:visited{
+        color:#111;
+    }
+    a:active{
+        color:darkblue
+    }
+    
+    footer{
+        background-color:#3e4444;
+        margin-top:30px;
+        padding:20px
+    }
+    
+    footer img{
+        border-radius:150px;
+        display: block;
+        margin: auto;
+    }
+</style>
+    
+<body>
+    <header>
+        <a href="index.html" class="header-brand">Viktoria</a>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="examples.html" class="header-examples">Examples</a>
+        </nav>
+    </header>
+    <main>
+        <section class="index-banner">
+            <h2>I AM A FREELANCE WEB <br>DEVELOPER</h2>
+            <h1>backend and frontend <br>HTML, CSS, JS,SQL</h1>
+        </section>
+        <section>
+            <a href="examples.html"><div class="index-boxlink">
+                <h3>Examples</h3>
+            </div></a>
+            <a href="portfolio.html"><div class="index-boxlink">
+                <h3>Portfolio</h3>
+            </div></a>
+            <a href="https://www.instagram.com/viktor_meeussen/" target=_blank><div class="index-boxlink">
+                <h3>Instagram</h3>
+            </div></a>
+            <a href="about.html"><div class="index-boxlink">
+                <h3>About</h3>
+            </div></a>
+            <a href="contact.html"><div class="index-boxlink">
+                <h3>Contact</h3>
+            </div></a>
+        </section>
+    </main>
+    <footer>
+        <img src="https://cdn.frankwatching.com/app/uploads/2016/07/Webdesigner-770x477.jpg" width="250">
+    </footer>
+</body>
+</html>
